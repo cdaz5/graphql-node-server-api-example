@@ -1,0 +1,1 @@
+Check out this [Medium article](https://medium.com/@chris.dascoli/lets-build-a-graphql-node-server-that-hits-the-pokemon-api-4ee245944d25) for the full breakdown.

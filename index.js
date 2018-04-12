@@ -5,6 +5,7 @@ const typeDefs = `
   type Query {
     getPokemon(id: Int!): Pokemon
   }
+
   type Pokemon {
     id: Int
     name: String
@@ -12,11 +13,13 @@ const typeDefs = `
     abilities: [AbilityObj]
     stats: [StatObj]
   }
+
   type AbilityObj {
     slot: Int
     is_hidden: Boolean
     ability: Ability
   }
+
   type Ability {
     name: String
     url: String
@@ -27,6 +30,7 @@ const typeDefs = `
     base_stat: Int
     stat: Stat
   }
+
   type Stat {
     name: String
     url: String
